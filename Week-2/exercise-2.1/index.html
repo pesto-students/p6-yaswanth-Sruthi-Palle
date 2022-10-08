@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website</title>
+    <script src="https://kit.fontawesome.com/c914b7b14b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="bg-container">
+        <header>
+            <h1>
+                Tourism Website
+            </h1>
+            <p>Best places to visit</p>
+        </header>
+        <div class="grid">
+            <section>
+                <p class="description">One of the oldest civilisations in the world, India is a mosaic of multicultural
+                    experiences. With a
+                    rich heritage and myriad attractions, the country is among the most popular tourist destinations in
+                    the world. </p>
+                <img src="https://tourtravelogy.com/wp-content/uploads/2016/07/india-road-to-freedom.jpg"
+                    alt="Incredible India" />
+            </section>
+            <section>
+
+                <article>
+                    <h1>Kodaikanal</h1>
+                    <p>Kodaikanal is a hill station which is located in Dindigul district in the state of Tamil
+                        Nadu,
+                        India.
+                        Its name in the Tamil language means "The Gift of the Forest". Kodaikanal is referred to as
+                        the
+                        "Princess of Hill stations" and has a long history as a retreat and tourist destination.
+                    </p>
+                    <p><a href="https://en.wikipedia.org/wiki/Kodaikanal" target="_blank">know more</a> about
+                        kodaikanal
+                    </p>
+
+                </article>
+
+                <article>
+                    <h1>Vembanand lake</h1>
+                    <p>Vembanad, also known as Punnamada is the longest lake in India, as well as the largest lake
+                        in
+                        the
+                        state of Kerala. With an area of 2033 square kilometers and a maximum length of 96.5 km, it
+                        is
+                        the
+                        second largest Ramsar site in India only after the Sunderbans in West Bengal. </p>
+                    </p>
+                    <p><a href="https://en.wikipedia.org/wiki/Vembanad" target="_blank">know more</a> about
+                        Vembanand
+                        lake
+                    </p>
+
+                </article>
+                <article>
+                    <h1>Dal lake</h1>
+                    <p>Dal is a lake in Srinagar, the summer capital of Jammu and Kashmir. It is an urban lake, the
+                        second
+                        largest lake in Jammu and Kashmir, and the most visited place in Srinagar by tourists and
+                        locals. It
+                        is integral to tourism and recreation in the Kashmir valley </p>
+                    </p>
+                    <p><a href="https://en.wikipedia.org/wiki/Dal_Lake" target="_blank">know more</a> about Dal lake
+                    </p>
+
+                </article>
+            </section>
+        </div>
+        <form class="form-container">
+            <h1>Login Form</h1>
+            <div class="form-display">
+                <div>
+                    <p>Favorite Topics :</p>
+
+                    <input type="checkbox" id="html" name="fav_language" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" name="fav_language" value="CSS">
+                    <label for="css">CSS</label><br>
+                    <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+
+                    <br>
+
+                    <label for="username">User Name :</label>
+                    <input id="username" type="text" maxlength="10" minlength="4" name="username" required
+                        class="input-size" />
+                    <br>
+                    <label for="email">Email :</label>
+                    <input id="email" type="email" name="email" required class="input-size" />
+                    <br>
+                </div>
+                <div>
+                    <label for="password"> Password :</label>
+                    <input id="password" type="text" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+                        name="password" required class="input-size" />
+                    <br>
+                    <label for="dateofbirth"> Date of Birth :</label>
+                    <input id="dateofbirth" name="dateofbirth" type="date" max="2010-01-01" min="1990-01-01" required
+                        class="input-size" />
+                    <br>
+                    <label for="yearofpassing">Year of passing : </label>
+                    <input id="yearofpassing" name="yearofpassing" type="number" max="2022" min="2017" required
+                        class="input-size" />
+                    <br>
+                    <label for="url">Linkedin Profile :</label>
+                    <input id="url" name="url" type="url" class="input-size" />
+                    <br>
+                </div>
+            </div>
+            <button>Submit</button>
+
+        </form>
+        <footer>
+            <ul>
+                <li>Simple tourism website</li>
+                <li><i class="fa-solid fa-copyright"></i> Sruthi Palle 2022</li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
