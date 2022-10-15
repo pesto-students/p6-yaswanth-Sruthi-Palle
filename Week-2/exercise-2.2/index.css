@@ -1,0 +1,52 @@
+.box-container {
+  height: 200px;
+  width: 300px;
+  margin-left: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 120px;
+  height: 120px;
+}
+
+.box-container:hover .red {
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.box-container:hover .yellow {
+  transform: rotate(-90deg);
+  transform-origin: top right;
+}
+
+.box-container:hover .green {
+  transform: rotate(90deg);
+  transform-origin: bottom right;
+}
+
+.box-container:hover .blue {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+}
+
+.red {
+  background-color: red;
+  transition: transform 1.5s;
+}
+
+.yellow {
+  background-color: yellow;
+  transition: transform 1.5s;
+}
+
+.blue {
+  background-color: blue;
+  transition: transform 1.5s;
+}
+
+.green {
+  background-color: green;
+  transition: transform 1.5s;
+}
